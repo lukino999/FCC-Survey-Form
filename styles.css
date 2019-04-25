@@ -1,0 +1,77 @@
+#main-container {
+  max-width: 800px;
+  font-family: "PT Sans", sans-serif;
+  margin: auto;
+  color: #191d32;
+}
+
+#description {
+  text-align: center;
+}
+
+#survey-form {
+  padding-top: 0.1em;
+}
+
+#title {
+  text-align: center;
+}
+
+.bordRadius {
+  border-radius: 0.3em;
+}
+
+#personal-info {
+  background: #e9fc4a;
+  padding: 0;
+}
+
+.rowContainer {
+  display: grid;
+  grid-template-columns: 30% 60%;
+  padding: 0.3em 1em;
+  background: #e9fc4a;
+  margin: 0.3em 0;
+}
+
+.leftLabel {
+  padding: 0.2em 1em;
+  text-align: right;
+}
+
+@media screen and (max-width: 480px) {
+  .rowContainer {
+    grid-template-columns: 90%;
+  }
+
+  .leftLabel {
+    text-align: left;
+  }
+}
+
+.inputText {
+  font-size: 100%;
+}
+
+.labelText {
+  font-size: 110%;
+}
+
+#dropdown {
+  margin: auto 10% auto 0;
+}
+
+#submit {
+  justify-content: center;
+  font-size: 200%;
+  display: flex;
+  margin: auto;
+  background: #191d32;
+  color: #e9fc4a;
+  padding: 0.1em 1em;
+  margin-bottom: 50px;
+}
+
+#submit:hover {
+  cursor: pointer;
+}
