@@ -3,6 +3,7 @@
   font-family: "PT Sans", sans-serif;
   margin: auto;
   color: #191d32;
+  font-size: 1em;
 }
 
 #description {
@@ -50,15 +51,15 @@
 }
 
 .inputText {
-  font-size: 100%;
+  font-size: .94em; 
 }
 
 .labelText {
-  font-size: 110%;
+  font-size: 1em;
 }
 
 .textAreaText {
-  font-size: 145%;
+  font-size: 1.3em;
 }
 
 .labelCenterVert {
@@ -71,7 +72,7 @@
 
 #submit {
   justify-content: center;
-  font-size: 150%;
+  font-size: 1.5em;
   display: flex;
   margin: auto;
   background: #191d32;

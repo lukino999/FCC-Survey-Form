@@ -1,161 +1,161 @@
 <!DOCTYPE html>
 <html>
 
-  <head>
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-    <title>General health questionnaire</title>
-  </head>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./styles.css">
+  <title>General health questionnaire</title>
+</head>
 
-  <body>
-    <main>
-      <div id="main-container">
-        <!-- Title -->
-        <header>
-          <h1 id="title">General health survey</h1>
-          <p id="description">Health questionnaire</p>
-        </header>
+<body>
+  <main>
+    <div id="main-container">
+      <!-- Title -->
+      <header>
+        <h1 id="title">General health survey</h1>
+        <p id="description">Health questionnaire</p>
+      </header>
+      <!--  -->
+      <!-- Form -->
+      <form id="survey-form" action="#">
         <!--  -->
-        <!-- Form -->
-        <form id="survey-form" action="#">
-          <!--  -->
-          <!-- Name -->
-          <div id="personal-info" class="bordRadius">
-            <div class="rowContainer bordRadius">
-              <label id="name-label" class="leftLabel labelText" for="name">Name</label>
-              <input id="name" class="inputText bordRadius" type="text" name="-" required="true" placeholder="Enter your name">
-            </div>
-            <!--  -->
-            <!-- Email -->
-            <div class="rowContainer bordRadius">
-              <label id="email-label" class="leftLabel labelText" for="email">Email</label>
-              <input id="email" class="inputText bordRadius" type="email" name="-" required="true" placeholder="Enter your email">
-            </div>
-            <!--  -->
-            <!-- Age -->
-            <div class="rowContainer bordRadius">
-              <label id="number-label" class="leftLabel labelText" for="number">Age</label>
-              <input id="number" class="inputText bordRadius" type="number" name="-" required="true" min="0" max="140" placeholder="Enter your age">
-            </div>
-          </div>
-          <!--  -->
-          <!-- Dropdown menu -->
+        <!-- Name -->
+        <div id="personal-info" class="bordRadius">
           <div class="rowContainer bordRadius">
-            <label for="dropdown" class="leftLabel labelText">How often do you exercise?</label>
-            <select id="dropdown" class="inputText">
-              <option value="5">More than once a week</option>
-              <option value="4">Once a week</option>
-              <option value="3">Once a month</option>
-              <option value="2">Once every 3 months</option>
-              <option value="1">Never</option>
-            </select>
+            <label id="name-label" class="leftLabel labelText" for="name">Name</label>
+            <input id="name" class="inputText bordRadius" type="text" name="-" required="true" placeholder="Enter your name">
           </div>
           <!--  -->
-          <!-- Radio buttons smoke -->
-          <div id="radio-smoke-container" class="rowContainer bordRadius">
-            <div class="leftLabel labelCenterVert"><label for="radio-smoke-buttons" class="labelText">Do you smoke?</label></div>
-            <div id="radio-smoke-buttons">
-              <div>
-                <label for="radio-smk01">
-                  <input type="radio" name="radio-smoke" id="radio-smk01" value="smk0" checked="true">
-                  Never
-                </label>
-              </div>
-              <div>
-                <label for="radio-smk02">
-                  <input type="radio" name="radio-smoke" id="radio-smk02" value="smk1">
-                  Socially
-                </label>
-              </div>
-              <div>
-                <label for="radio-smk03">
-                  <input type="radio" name="radio-smoke" id="radio-smk03" value="smk2">
-                  Daily
-                </label>
-              </div>
+          <!-- Email -->
+          <div class="rowContainer bordRadius">
+            <label id="email-label" class="leftLabel labelText" for="email">Email</label>
+            <input id="email" class="inputText bordRadius" type="email" name="-" required="true" placeholder="Enter your email">
+          </div>
+          <!--  -->
+          <!-- Age -->
+          <div class="rowContainer bordRadius">
+            <label id="number-label" class="leftLabel labelText" for="number">Age</label>
+            <input id="number" class="inputText bordRadius" type="number" name="-" required="true" min="0" max="140" placeholder="Enter your age">
+          </div>
+        </div>
+        <!--  -->
+        <!-- Dropdown menu -->
+        <div class="rowContainer bordRadius">
+          <label for="dropdown" class="leftLabel labelText">How often do you exercise?</label>
+          <select id="dropdown" class="inputText">
+            <option value="5">More than once a week</option>
+            <option value="4">Once a week</option>
+            <option value="3">Once a month</option>
+            <option value="2">Once every 3 months</option>
+            <option value="1">Never</option>
+          </select>
+        </div>
+        <!--  -->
+        <!-- Radio buttons smoke -->
+        <div id="radio-smoke-container" class="rowContainer bordRadius">
+          <div class="leftLabel labelCenterVert"><label for="radio-smoke-buttons" class="labelText">Do you smoke?</label></div>
+          <div id="radio-smoke-buttons">
+            <div>
+              <label for="radio-smk01">
+                <input type="radio" name="radio-smoke" id="radio-smk01" value="smk0" checked="true">
+                Never
+              </label>
+            </div>
+            <div>
+              <label for="radio-smk02">
+                <input type="radio" name="radio-smoke" id="radio-smk02" value="smk1">
+                Socially
+              </label>
+            </div>
+            <div>
+              <label for="radio-smk03">
+                <input type="radio" name="radio-smoke" id="radio-smk03" value="smk2">
+                Daily
+              </label>
             </div>
           </div>
-          <!--  -->
-          <!-- Radio buttons drink -->
-          <div id="radio-drink-container" class="rowContainer bordRadius">
-            <div class="leftLabel labelCenterVert"><label for="radio-drink-buttons" class="labelText">Do you drink alcohol?</label></div>
-            <div id="radio-drink-buttons">
-              <div>
-                <label for="radio-drk01">
-                  <input type="radio" name="radio-drink" id="radio-drk01" value="drink0" checked="true">
-                  Never
-                </label>
-              </div>
-              <div>
-                <label for="radio-drk02">
-                  <input type="radio" name="radio-drink" id="radio-drk02" value="drink1">
-                  Socially
-                </label>
-              </div>
-              <div>
-                <label for="radio-drk03">
-                  <input type="radio" name="radio-drink" id="radio-drk03" value="drink2">
-                  Daily
-                </label>
-              </div>
+        </div>
+        <!--  -->
+        <!-- Radio buttons drink -->
+        <div id="radio-drink-container" class="rowContainer bordRadius">
+          <div class="leftLabel labelCenterVert"><label for="radio-drink-buttons" class="labelText">Do you drink alcohol?</label></div>
+          <div id="radio-drink-buttons">
+            <div>
+              <label for="radio-drk01">
+                <input type="radio" name="radio-drink" id="radio-drk01" value="drink0" checked="true">
+                Never
+              </label>
+            </div>
+            <div>
+              <label for="radio-drk02">
+                <input type="radio" name="radio-drink" id="radio-drk02" value="drink1">
+                Socially
+              </label>
+            </div>
+            <div>
+              <label for="radio-drk03">
+                <input type="radio" name="radio-drink" id="radio-drk03" value="drink2">
+                Daily
+              </label>
             </div>
           </div>
-          <!--  -->
-          <!-- Checkboxes01 -->
-          <div id="checkboxes01-container" class="rowContainer bordRadius">
-            <label for="checkboxes01-checkboxes" class="leftLabel labelCenterVert labelText">What do you include in your diet?</label>
-            <div id="checkboxes01-checkboxes">
-              <div>
-                <label for="chBox01">
-                  <input type="checkbox" name="chBox01" name="checkboxes01" value="Ch01">
-                  Fruit / nuts
-                </label>
-              </div>
-              <div>
-                <label for="chBox02">
-                  <input type="checkbox" name="chBox02" name="checkboxes01" value="Ch02">
-                  Raw vegetables
-                </label>
-              </div>
-              <div>
-                <label for="chBox03">
-                  <input type="checkbox" name="chBox03" name="checkboxes01" value="Ch03">
-                  Cooked vegetables
-                </label>
-              </div>
-              <div>
-                <label for="chBox04">
-                  <input type="checkbox" name="chBox04" name="checkboxes01" value="Ch04">
-                  Pasta / Bread / Rice
-                </label>
-              </div>
-              <div>
-                <label for="chBox05">
-                  <input type="checkbox" name="chBox05" name="checkboxes01" value="Ch05">
-                  Fish
-                </label>
-              </div>
-              <div>
-                <label for="chBox06">
-                  <input type="checkbox" name="chBox06" name="checkboxes01" value="Ch06">
-                  Meat
-                </label>
-              </div>
+        </div>
+        <!--  -->
+        <!-- Checkboxes01 -->
+        <div id="checkboxes01-container" class="rowContainer bordRadius">
+          <label for="checkboxes01-checkboxes" class="leftLabel labelCenterVert labelText">What do you include in your diet?</label>
+          <div id="checkboxes01-checkboxes">
+            <div>
+              <label for="chBox01">
+                <input type="checkbox" name="chBox01" name="checkboxes01" value="Ch01">
+                Fruit / nuts
+              </label>
+            </div>
+            <div>
+              <label for="chBox02">
+                <input type="checkbox" name="chBox02" name="checkboxes01" value="Ch02">
+                Raw vegetables
+              </label>
+            </div>
+            <div>
+              <label for="chBox03">
+                <input type="checkbox" name="chBox03" name="checkboxes01" value="Ch03">
+                Cooked vegetables
+              </label>
+            </div>
+            <div>
+              <label for="chBox04">
+                <input type="checkbox" name="chBox04" name="checkboxes01" value="Ch04">
+                Pasta / Bread / Rice
+              </label>
+            </div>
+            <div>
+              <label for="chBox05">
+                <input type="checkbox" name="chBox05" name="checkboxes01" value="Ch05">
+                Fish
+              </label>
+            </div>
+            <div>
+              <label for="chBox06">
+                <input type="checkbox" name="chBox06" name="checkboxes01" value="Ch06">
+                Meat
+              </label>
             </div>
           </div>
-          <!--  -->
-          <!-- textarea -->
-          <div id="textInput_container" class="rowContainer bordRadius">
-            <label for="text-input" class="leftLabel labelText">Any comment</label>
-            <textarea id="text-input" class="bordRadius textAreaText" placeholder="Enter your comments here..." rows="10" cols=auto></textarea>
-          </div>
-          <button type="submit" id="submit" class="bordRadius">Submit</button>
-        </form>
-      </div>
-    </main>
-    <!--  -->
-    <!-- test suite -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-  </body>
+        </div>
+        <!--  -->
+        <!-- textarea -->
+        <div id="textInput_container" class="rowContainer bordRadius">
+          <label for="text-input" class="leftLabel labelText">Any comment</label>
+          <textarea id="text-input" class="bordRadius textAreaText" placeholder="Enter your comments here..." rows="10" cols=auto></textarea>
+        </div>
+        <button type="submit" id="submit" class="bordRadius">Submit</button>
+      </form>
+    </div>
+  </main>
+  <!--  -->
+  <!-- test suite -->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
 
 </html>
