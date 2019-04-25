@@ -57,18 +57,26 @@
   font-size: 110%;
 }
 
+.textAreaText {
+  font-size: 145%;
+}
+
+.labelCenterVert {
+  align-self: center;
+}
+
 #dropdown {
   margin: auto 10% auto 0;
 }
 
 #submit {
   justify-content: center;
-  font-size: 200%;
+  font-size: 150%;
   display: flex;
   margin: auto;
   background: #191d32;
   color: #e9fc4a;
-  padding: 0.1em 1em;
+  padding: 0.3em 2em;
   margin-bottom: 50px;
 }
 
