@@ -28,7 +28,7 @@
             <!--  -->
             <!-- Email -->
             <div class="rowContainer bordRadius">
-              <label id="email-label" class="leftLabel labelText" for="email">email</label>
+              <label id="email-label" class="leftLabel labelText" for="email">Email</label>
               <input id="email" class="inputText bordRadius" type="email" name="-" required="true" placeholder="Enter your email">
             </div>
             <!--  -->
@@ -43,17 +43,17 @@
           <div class="rowContainer bordRadius">
             <label for="dropdown" class="leftLabel labelText">How often do you exercise?</label>
             <select id="dropdown" class="inputText">
-              <option value="1">Never</option>
-              <option value="2">Once every 3 months</option>
-              <option value="3">Once a month</option>
+              <option value="5">More than once a week</option>
               <option value="4">Once a week</option>
-              <option value="5">Often during a week</option>
+              <option value="3">Once a month</option>
+              <option value="2">Once every 3 months</option>
+              <option value="1">Never</option>
             </select>
           </div>
           <!--  -->
           <!-- Radio buttons smoke -->
           <div id="radio-smoke-container" class="rowContainer bordRadius">
-            <div class="leftLabel"><label for="radio-smoke-buttons" class="labelText">Do you smoke?</label></div>
+            <div class="leftLabel labelCenterVert"><label for="radio-smoke-buttons" class="labelText">Do you smoke?</label></div>
             <div id="radio-smoke-buttons">
               <div>
                 <label for="radio-smk01">
@@ -78,7 +78,7 @@
           <!--  -->
           <!-- Radio buttons drink -->
           <div id="radio-drink-container" class="rowContainer bordRadius">
-            <div class="leftLabel"><label for="radio-drink-buttons" class="labelText">Do you drink alcohol?</label></div>
+            <div class="leftLabel labelCenterVert"><label for="radio-drink-buttons" class="labelText">Do you drink alcohol?</label></div>
             <div id="radio-drink-buttons">
               <div>
                 <label for="radio-drk01">
@@ -103,12 +103,12 @@
           <!--  -->
           <!-- Checkboxes01 -->
           <div id="checkboxes01-container" class="rowContainer bordRadius">
-            <label for="checkboxes01-checkboxes" class="leftLabel labelText">What do you include in your diet?</label>
+            <label for="checkboxes01-checkboxes" class="leftLabel labelCenterVert labelText">What do you include in your diet?</label>
             <div id="checkboxes01-checkboxes">
               <div>
                 <label for="chBox01">
                   <input type="checkbox" name="chBox01" name="checkboxes01" value="Ch01">
-                  Fruit/nuts
+                  Fruit / nuts
                 </label>
               </div>
               <div>
@@ -126,7 +126,7 @@
               <div>
                 <label for="chBox04">
                   <input type="checkbox" name="chBox04" name="checkboxes01" value="Ch04">
-                  Pasta/Bread/Rice
+                  Pasta / Bread / Rice
                 </label>
               </div>
               <div>
@@ -147,7 +147,7 @@
           <!-- textarea -->
           <div id="textInput_container" class="rowContainer bordRadius">
             <label for="text-input" class="leftLabel labelText">Any comment</label>
-            <textarea id="text-input" class="bordRadius" placeholder="Enter your comments here..." rows="10" cols=auto></textarea>
+            <textarea id="text-input" class="bordRadius textAreaText" placeholder="Enter your comments here..." rows="10" cols=auto></textarea>
           </div>
           <button type="submit" id="submit" class="bordRadius">Submit</button>
         </form>
