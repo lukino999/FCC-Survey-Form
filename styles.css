@@ -29,7 +29,7 @@
 
 .rowContainer {
   display: grid;
-  grid-template-columns: 30% 60%;
+  grid-template-columns: 35% 58%;
   padding: 0.3em 1em;
   background: #e9fc4a;
   margin: 0.3em 0;
@@ -47,6 +47,7 @@
 
   .leftLabel {
     text-align: left;
+    padding-left: 0;
   }
 }
 
